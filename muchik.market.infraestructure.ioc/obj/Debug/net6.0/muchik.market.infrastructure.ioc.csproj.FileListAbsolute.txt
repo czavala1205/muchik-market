@@ -15,3 +15,20 @@ D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\mu
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\refint\muchik.market.infrastructure.ioc.dll
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.pdb
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\ref\muchik.market.infrastructure.ioc.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infrastructure.ioc.deps.json
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infrastructure.ioc.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infrastructure.ioc.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infraestructure.bus.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.domain.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infraestructure.bus.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.csproj.AssemblyReference.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.AssemblyInfoInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.AssemblyInfo.cs
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.csproj.CoreCompileInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.csproj.CopyComplete
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\refint\muchik.market.infrastructure.ioc.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\ref\muchik.market.infrastructure.ioc.dll

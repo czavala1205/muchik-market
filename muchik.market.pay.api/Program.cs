@@ -9,6 +9,9 @@ using Steeltoe.Discovery.Client;
 using muchik.market.pay.infrastructure.context;
 using muchik.market.pay.domain.interfaces;
 using muchik.market.pay.infrastructure.repositories;
+using MediatR;
+using muchik.market.pay.application.Commands;
+using muchik.market.pay.application.CommandHandlers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,6 +47,10 @@ builder.Services.AddTransient<IPayRepository, PayRepository>();
 
 //Context
 builder.Services.AddTransient<PayContext>();
+
+//Commands & Events
+builder.Services.AddTransient<IRequestHandler<UpdateInvoiceCommand, bool>, UpdateInvoiceCommandHandler>();
+builder.Services.AddTransient<IRequestHandler<CreateTransactionCommand, bool>, CreateTransactionCommandHadler>();
 
 ////Commands & Events
 //builder.Services.AddTransient<IRequestHandler<CreatePaymentCommand, bool>, CreatePaymentCommandHandler>();

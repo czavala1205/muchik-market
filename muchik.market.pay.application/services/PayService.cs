@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using muchik.market.domain.bus;
+using muchik.market.pay.application.Commands;
 using muchik.market.pay.application.dto;
 using muchik.market.pay.application.interfaces;
 using muchik.market.pay.domain.entities;
@@ -10,11 +12,13 @@ namespace muchik.market.pay.application.services
     {
         private readonly IPayRepository _payRepository;
         private readonly IMapper _mapper;
+        private readonly IEventBus _eventBus;
 
-        public PayService(IPayRepository payRepository, IMapper mapper)
+        public PayService(IPayRepository payRepository, IMapper mapper, IEventBus eventBus)
         {
             _payRepository = payRepository;
             _mapper = mapper;
+            _eventBus = eventBus;
         }
         public ICollection<OperationDto> GetAllOperations()
         {
@@ -23,11 +27,18 @@ namespace muchik.market.pay.application.services
             return operationsDto;
         }
 
-        public bool CreateOperation(OperationDto createOperationDto)
+        public async Task<bool> CreateOperation(OperationDto createOperationDto)
         {
             var operation = _mapper.Map<Operation>(createOperationDto);
             _payRepository.Add(operation);
-            return _payRepository.Save();
+            
+            var successRegister = _payRepository.Save();
+            if (successRegister)
+            {
+                await _eventBus.SendCommand(new UpdateInvoiceCommand(createOperationDto.IdInvoice, createOperationDto.State));
+            }
+
+            return successRegister;
         }
 
   

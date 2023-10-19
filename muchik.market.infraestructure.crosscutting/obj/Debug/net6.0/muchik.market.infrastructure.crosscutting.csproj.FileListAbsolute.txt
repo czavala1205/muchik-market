@@ -22,3 +22,15 @@ D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.crosscutting\obj\Debug\
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\refint\muchik.market.infrastructure.crosscutting.dll
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\muchik.market.infrastructure.crosscutting.pdb
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\ref\muchik.market.infrastructure.crosscutting.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\bin\Debug\net6.0\muchik.market.infrastructure.crosscutting.deps.json
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\bin\Debug\net6.0\muchik.market.infrastructure.crosscutting.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\bin\Debug\net6.0\muchik.market.infrastructure.crosscutting.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\muchik.market.infrastructure.crosscutting.csproj.AssemblyReference.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\muchik.market.infrastructure.crosscutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\muchik.market.infrastructure.crosscutting.AssemblyInfoInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\muchik.market.infrastructure.crosscutting.AssemblyInfo.cs
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\muchik.market.infrastructure.crosscutting.csproj.CoreCompileInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\muchik.market.infrastructure.crosscutting.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\refint\muchik.market.infrastructure.crosscutting.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\muchik.market.infrastructure.crosscutting.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.crosscutting\obj\Debug\net6.0\ref\muchik.market.infrastructure.crosscutting.dll
