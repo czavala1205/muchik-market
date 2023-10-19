@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZbE9UEzaV9eSKMuFmV36V89Cu7g3Nr/LOwIoxGbE4Z8=",
+  "Source": "muchik.market.transaction.api",
+  "BasePath": "_content/muchik.market.transaction.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

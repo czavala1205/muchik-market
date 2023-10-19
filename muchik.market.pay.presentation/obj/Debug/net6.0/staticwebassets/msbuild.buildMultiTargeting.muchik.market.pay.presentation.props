@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\muchik.market.pay.presentation.props" />
+</Project>

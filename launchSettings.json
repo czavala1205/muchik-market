@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "muchik.market.transaction.api",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
+      "serviceActions": {
+        "muchik.market.api.gateway": "StartDebugging",
+        "muchik.market.security.api": "StartDebugging",
+        "muchik.market.invoice.api": "StartDebugging",
+        "muchik.market.pay.api": "StartDebugging",
+        "muchik.market.transaction.api": "StartDebugging"
+      }
+    }
+  }
+}

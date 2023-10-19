@@ -1,0 +1,11 @@
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.infraestructure.deps.json
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.infraestructure.dll
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.infraestructure.pdb
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infraestructure.AssemblyInfoInputs.cache
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infraestructure.AssemblyInfo.cs
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infraestructure.csproj.CoreCompileInputs.cache
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infraestructure.dll
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\refint\muchik.market.invoice.infraestructure.dll
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infraestructure.pdb
+D:\ULTIMO NH\muchik-market\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\ref\muchik.market.invoice.infraestructure.dll

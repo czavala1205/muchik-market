@@ -1,0 +1,17 @@
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infrastructure.ioc.deps.json
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infrastructure.ioc.dll
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infrastructure.ioc.pdb
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.domain.dll
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infraestructure.bus.dll
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.domain.pdb
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\bin\Debug\net6.0\muchik.market.infraestructure.bus.pdb
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.csproj.AssemblyReference.cache
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.GeneratedMSBuildEditorConfig.editorconfig
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.AssemblyInfoInputs.cache
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.AssemblyInfo.cs
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.csproj.CoreCompileInputs.cache
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.csproj.CopyComplete
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.dll
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\refint\muchik.market.infrastructure.ioc.dll
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\muchik.market.infrastructure.ioc.pdb
+D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.ioc\obj\Debug\net6.0\ref\muchik.market.infrastructure.ioc.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xfn3uUujkHvgf/lXMgOO6gWE1diRqng169WqR1xbAZg=",
+  "Source": "muchik.market.invoice.api",
+  "BasePath": "_content/muchik.market.invoice.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

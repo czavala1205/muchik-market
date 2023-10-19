@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj": {}
+  },
+  "projects": {
+    "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj",
+        "projectName": "muchik.market.transaction.domain",
+        "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj",
+        "projectName": "muchik.market.transaction.infraestructure",
+        "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
+                "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IoTSharp.EntityFrameworkCore.MongoDB": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

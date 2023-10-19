@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VwcMCy3vEk0DQgpWCRjIgipa9DafCEXsnhug2s4Kj6IiTOeTi6cmHFVhbz7XHHqrrdlKNCwwsPQj8C8BC1KVZg==",
+  "success": true,
+  "projectFilePath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.domain\\muchik.market.domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\czava\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\czava\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

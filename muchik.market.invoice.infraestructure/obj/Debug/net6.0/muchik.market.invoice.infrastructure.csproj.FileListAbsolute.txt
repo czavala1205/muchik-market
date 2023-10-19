@@ -1,0 +1,17 @@
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.csproj.AssemblyReference.cache
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.AssemblyInfoInputs.cache
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.AssemblyInfo.cs
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.csproj.CoreCompileInputs.cache
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.infrastructure.deps.json
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.infrastructure.runtimeconfig.json
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.infrastructure.dll
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.infrastructure.pdb
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.domain.dll
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\bin\Debug\net6.0\muchik.market.invoice.domain.pdb
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.csproj.CopyComplete
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.dll
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\refint\muchik.market.invoice.infrastructure.dll
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.pdb
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\muchik.market.invoice.infrastructure.genruntimeconfig.cache
+D:\ULTIMO NH\muchik.market\muchik.market.invoice.infraestructure\obj\Debug\net6.0\ref\muchik.market.invoice.infrastructure.dll
