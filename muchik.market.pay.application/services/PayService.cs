@@ -36,6 +36,7 @@ namespace muchik.market.pay.application.services
             if (successRegister)
             {
                 await _eventBus.SendCommand(new UpdateInvoiceCommand(createOperationDto.IdInvoice, createOperationDto.State));
+                await _eventBus.SendCommand(new CreateTransactionCommand(createOperationDto.IdInvoice, createOperationDto.Amount));
             }
 
             return successRegister;
