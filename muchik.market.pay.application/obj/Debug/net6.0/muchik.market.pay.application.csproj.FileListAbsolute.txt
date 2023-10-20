@@ -27,7 +27,9 @@ D:\ULTIMO NH\muchik.market\muchik.market.pay.application\obj\Debug\net6.0\muchik
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.pay.application.deps.json
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.pay.application.dll
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.pay.application.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.domain.dll
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.pay.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.domain.pdb
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.pay.domain.pdb
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\obj\Debug\net6.0\muchik.market.pay.application.csproj.AssemblyReference.cache
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\obj\Debug\net6.0\muchik.market.pay.application.GeneratedMSBuildEditorConfig.editorconfig
@@ -39,5 +41,3 @@ D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\obj\Debug\
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\obj\Debug\net6.0\refint\muchik.market.pay.application.dll
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\obj\Debug\net6.0\muchik.market.pay.application.pdb
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\obj\Debug\net6.0\ref\muchik.market.pay.application.dll
-D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.domain.dll
-D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.pay.application\bin\Debug\net6.0\muchik.market.domain.pdb

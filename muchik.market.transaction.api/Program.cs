@@ -10,6 +10,10 @@ using muchik.market.infrastructure.ioc;
 using muchik.market.transaction.domain.interfaces;
 using muchik.market.transaction.infrastructure.repositories;
 using MongoDB.Driver;
+using MediatR;
+using muchik.market.transaction.application.events;
+using muchik.market.transaction.application.eventHandlers;
+using muchik.market.domain.bus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -49,7 +53,10 @@ builder.Services.AddTransient<ITransactionRepository, TransactionRepository>();
 builder.Services.AddTransient<TransactionContext>();
 
 ////Commands & Events
-//builder.Services.AddTransient<IRequestHandler<CreatePaymentCommand, bool>, CreatePaymentCommandHandler>();
+builder.Services.AddTransient<IEventHandler<CreateTransactionEvent>, CreateTransactionEventHandler>();
+
+//Subscriptions
+builder.Services.AddTransient<CreateTransactionEventHandler>();
 
 //CORS
 builder.Services.AddCors(opt =>
@@ -61,6 +68,10 @@ builder.Services.AddCors(opt =>
 builder.Services.AddDiscoveryClient();
 
 var app = builder.Build();
+
+//Subscriptions
+var eventBus = app.Services.GetRequiredService<IEventBus>();
+eventBus.Subscribe<CreateTransactionEvent, CreateTransactionEventHandler>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsProduction())

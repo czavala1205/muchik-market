@@ -27,7 +27,9 @@ D:\ULTIMO NH\muchik.market\muchik.market.transaction.application\obj\Debug\net6.
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\bin\Debug\net6.0\muchik.market.transaction.application.deps.json
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\bin\Debug\net6.0\muchik.market.transaction.application.dll
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\bin\Debug\net6.0\muchik.market.transaction.application.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\bin\Debug\net6.0\muchik.market.domain.dll
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\bin\Debug\net6.0\muchik.market.transaction.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\bin\Debug\net6.0\muchik.market.domain.pdb
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\bin\Debug\net6.0\muchik.market.transaction.domain.pdb
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\obj\Debug\net6.0\muchik.market.transaction.application.csproj.AssemblyReference.cache
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.transaction.application\obj\Debug\net6.0\muchik.market.transaction.application.GeneratedMSBuildEditorConfig.editorconfig

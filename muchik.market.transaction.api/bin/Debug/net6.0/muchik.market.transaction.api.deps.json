@@ -1648,6 +1648,7 @@
       "muchik.market.transaction.application/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "muchik.market.domain": "1.0.0",
           "muchik.market.transaction.domain": "1.0.0"
         },
         "runtime": {

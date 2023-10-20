@@ -9,6 +9,9 @@ using muchik.market.infrastructure.bus.settings;
 using muchik.market.infrastructure.ioc;
 using Steeltoe.Discovery.Client;
 using Steeltoe.Extensions.Configuration.ConfigServer;
+using muchik.market.domain.bus;
+using muchik.market.invoice.application.events;
+using muchik.market.invoice.application.eventHandlers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,6 +48,12 @@ builder.Services.AddTransient<IInvoiceRepository, InvoiceRepository>();
 //Context
 builder.Services.AddTransient<InvoiceContext>();
 
+//Commands & Events
+builder.Services.AddTransient<IEventHandler<UpdateInvoiceEvent>, UpdateInvoiceEventHandler>();
+
+//Subscriptions
+builder.Services.AddTransient<UpdateInvoiceEventHandler>();
+
 //CORS
 builder.Services.AddCors(opt =>
 {
@@ -55,6 +64,10 @@ builder.Services.AddCors(opt =>
 builder.Services.AddDiscoveryClient();
 
 var app = builder.Build();
+
+//Subscriptions
+var eventBus = app.Services.GetRequiredService<IEventBus>();
+eventBus.Subscribe<UpdateInvoiceEvent, UpdateInvoiceEventHandler>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsProduction())
