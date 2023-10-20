@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\muchik.market.domain\muchik.market.domain.csproj" />
     <ProjectReference Include="..\muchik.market.invoice.domain\muchik.market.invoice.domain.csproj" />
   </ItemGroup>
 

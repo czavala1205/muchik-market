@@ -366,6 +366,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
+                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
+              },
               "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
                 "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj"
               }

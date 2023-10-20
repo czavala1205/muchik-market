@@ -27,7 +27,9 @@ D:\ULTIMO NH\muchik.market\muchik.market.invoice.application\obj\Debug\net6.0\re
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.application.deps.json
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.application.dll
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.application.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.domain.dll
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.domain.pdb
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.domain.pdb
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.csproj.AssemblyReference.cache
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.GeneratedMSBuildEditorConfig.editorconfig
