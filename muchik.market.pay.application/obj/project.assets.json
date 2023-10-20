@@ -31,6 +31,35 @@
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "MediatR/11.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -108,6 +137,19 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "muchik.market.domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MediatR": "11.1.0"
+        },
+        "compile": {
+          "bin/placeholder/muchik.market.domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/muchik.market.domain.dll": {}
+        }
+      },
       "muchik.market.pay.domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -148,6 +190,36 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "MediatR/11.1.0": {
+      "sha512": "YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
+      "type": "package",
+      "path": "mediatr/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.11.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "type": "package",
+      "path": "mediatr.contracts/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -315,6 +387,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "muchik.market.domain/1.0.0": {
+      "type": "project",
+      "path": "../muchik.market.domain/muchik.market.domain.csproj",
+      "msbuildProject": "../muchik.market.domain/muchik.market.domain.csproj"
+    },
     "muchik.market.pay.domain/1.0.0": {
       "type": "project",
       "path": "../muchik.market.pay.domain/muchik.market.pay.domain.csproj",
@@ -324,24 +401,32 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "muchik.market.domain >= 1.0.0",
       "muchik.market.pay.domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\czava\\.nuget\\packages\\": {}
+    "C:\\Users\\richa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.application\\muchik.market.pay.application.csproj",
+      "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj",
       "projectName": "muchik.market.pay.application",
-      "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.application\\muchik.market.pay.application.csproj",
-      "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
-      "outputPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.application\\obj\\",
+      "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj",
+      "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -354,8 +439,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj": {
-              "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj"
+            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
+              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
+            },
+            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj": {
+              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj"
             }
           }
         }
@@ -391,7 +479,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

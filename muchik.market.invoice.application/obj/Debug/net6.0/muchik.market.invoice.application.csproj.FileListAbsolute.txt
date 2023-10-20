@@ -24,3 +24,18 @@ D:\ULTIMO NH\muchik.market\muchik.market.invoice.application\obj\Debug\net6.0\mu
 D:\ULTIMO NH\muchik.market\muchik.market.invoice.application\obj\Debug\net6.0\refint\muchik.market.invoice.application.dll
 D:\ULTIMO NH\muchik.market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.pdb
 D:\ULTIMO NH\muchik.market\muchik.market.invoice.application\obj\Debug\net6.0\ref\muchik.market.invoice.application.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.application.deps.json
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.application.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.application.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\bin\Debug\net6.0\muchik.market.invoice.domain.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.csproj.AssemblyReference.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.AssemblyInfoInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.AssemblyInfo.cs
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.csproj.CoreCompileInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.csproj.CopyComplete
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\refint\muchik.market.invoice.application.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\muchik.market.invoice.application.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.application\obj\Debug\net6.0\ref\muchik.market.invoice.application.dll

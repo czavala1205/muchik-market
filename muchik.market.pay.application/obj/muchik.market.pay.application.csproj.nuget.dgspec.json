@@ -1,21 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.application\\muchik.market.pay.application.csproj": {}
+    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj": {}
   },
   "projects": {
-    "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.application\\muchik.market.pay.application.csproj": {
+    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.application\\muchik.market.pay.application.csproj",
-        "projectName": "muchik.market.pay.application",
-        "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.application\\muchik.market.pay.application.csproj",
-        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
-        "outputPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.application\\obj\\",
+        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj",
+        "projectName": "muchik.market.domain",
+        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj",
+        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj",
+        "projectName": "muchik.market.pay.application",
+        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj",
+        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -28,8 +99,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj": {
-                "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj"
+              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
+                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
+              },
+              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj": {
+                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj"
               }
             }
           }
@@ -65,22 +139,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj": {
+    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj",
+        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj",
         "projectName": "muchik.market.pay.domain",
-        "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj",
-        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
-        "outputPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.pay.domain\\obj\\",
+        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.domain\\muchik.market.pay.domain.csproj",
+        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -120,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -579,20 +579,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\czava\\.nuget\\packages\\": {}
+    "C:\\Users\\richa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ULTIMO NH\\muchik.market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj",
+      "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj",
       "projectName": "muchik.market.infrastructure.ioc",
-      "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj",
-      "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
-      "outputPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.infraestructure.ioc\\obj\\",
+      "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj",
+      "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -605,11 +612,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ULTIMO NH\\muchik.market\\muchik.market.domain\\muchik.market.domain.csproj": {
-              "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.domain\\muchik.market.domain.csproj"
+            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
+              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
             },
-            "D:\\ULTIMO NH\\muchik.market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
-              "projectPath": "D:\\ULTIMO NH\\muchik.market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj"
+            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
+              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj"
             }
           }
         }
@@ -653,7 +660,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

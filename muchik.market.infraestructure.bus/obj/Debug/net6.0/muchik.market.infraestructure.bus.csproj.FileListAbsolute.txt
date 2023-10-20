@@ -28,3 +28,18 @@ D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.bus\bin\Debug\net6.0\mu
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.bus\bin\Debug\net6.0\muchik.market.domain.pdb
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.csproj.CopyComplete
 D:\ULTIMO NH\muchik.market\muchik.market.infraestructure.bus\obj\Debug\net6.0\ref\muchik.market.infraestructure.bus.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\bin\Debug\net6.0\muchik.market.infraestructure.bus.deps.json
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\bin\Debug\net6.0\muchik.market.infraestructure.bus.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\bin\Debug\net6.0\muchik.market.infraestructure.bus.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\bin\Debug\net6.0\muchik.market.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\bin\Debug\net6.0\muchik.market.domain.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.csproj.AssemblyReference.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.AssemblyInfoInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.AssemblyInfo.cs
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.csproj.CoreCompileInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.csproj.CopyComplete
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\refint\muchik.market.infraestructure.bus.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\muchik.market.infraestructure.bus.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.infraestructure.bus\obj\Debug\net6.0\ref\muchik.market.infraestructure.bus.dll

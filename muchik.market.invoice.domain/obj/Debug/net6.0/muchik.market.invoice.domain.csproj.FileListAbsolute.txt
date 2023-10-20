@@ -20,3 +20,14 @@ D:\ULTIMO NH\muchik.market\muchik.market.invoice.domain\obj\Debug\net6.0\muchik.
 D:\ULTIMO NH\muchik.market\muchik.market.invoice.domain\obj\Debug\net6.0\refint\muchik.market.invoice.domain.dll
 D:\ULTIMO NH\muchik.market\muchik.market.invoice.domain\obj\Debug\net6.0\muchik.market.invoice.domain.pdb
 D:\ULTIMO NH\muchik.market\muchik.market.invoice.domain\obj\Debug\net6.0\ref\muchik.market.invoice.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\bin\Debug\net6.0\muchik.market.invoice.domain.deps.json
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\bin\Debug\net6.0\muchik.market.invoice.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\bin\Debug\net6.0\muchik.market.invoice.domain.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\obj\Debug\net6.0\muchik.market.invoice.domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\obj\Debug\net6.0\muchik.market.invoice.domain.AssemblyInfoInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\obj\Debug\net6.0\muchik.market.invoice.domain.AssemblyInfo.cs
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\obj\Debug\net6.0\muchik.market.invoice.domain.csproj.CoreCompileInputs.cache
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\obj\Debug\net6.0\muchik.market.invoice.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\obj\Debug\net6.0\refint\muchik.market.invoice.domain.dll
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\obj\Debug\net6.0\muchik.market.invoice.domain.pdb
+D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.invoice.domain\obj\Debug\net6.0\ref\muchik.market.invoice.domain.dll
