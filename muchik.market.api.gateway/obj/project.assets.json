@@ -2924,27 +2924,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\richa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\czava\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.api.gateway\\muchik.market.api.gateway.csproj",
+      "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.api.gateway\\muchik.market.api.gateway.csproj",
       "projectName": "muchik.market.api.gateway",
-      "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.api.gateway\\muchik.market.api.gateway.csproj",
-      "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.api.gateway\\obj\\",
+      "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.api.gateway\\muchik.market.api.gateway.csproj",
+      "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+      "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.api.gateway\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2957,8 +2950,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.crosscutting\\muchik.market.infrastructure.crosscutting.csproj": {
-              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.crosscutting\\muchik.market.infrastructure.crosscutting.csproj"
+            "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.crosscutting\\muchik.market.infrastructure.crosscutting.csproj": {
+              "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.crosscutting\\muchik.market.infrastructure.crosscutting.csproj"
             }
           }
         }
@@ -3017,7 +3010,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

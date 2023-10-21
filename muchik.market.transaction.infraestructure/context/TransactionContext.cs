@@ -1,12 +1,8 @@
 ﻿using IoTSharp.EntityFrameworkCore.MongoDB.Extensions;
-using IoTSharp.EntityFrameworkCore.MongoDB.Query.Internal;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
-using MongoDB.Driver;
-using muchik.market.transaction.domain.entities;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using MongoDB.Bson;
 using muchik.market.transaction.infrastructure.configurations.entityTypes;
-using System.Transactions;
-using static System.Net.Mime.MediaTypeNames;
 using Transaction = muchik.market.transaction.domain.entities.Transaction;
 
 namespace muchik.market.transaction.infrastructure.context
@@ -18,9 +14,8 @@ namespace muchik.market.transaction.infrastructure.context
         {
         }
 
-        
         public DbSet<Transaction> Transaction { get; set; } = null!;
-        //public virtual DbSet<OrderDetail> OrderDetail { get; set; } = null!;
+
       
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using muchik.market.transaction.domain.interfaces;
 using muchik.market.transaction.infrastructure.context;
-using System.Linq;
 using System.Linq.Expressions;
 
 namespace muchik.market.transaction.infrastructure.repositories

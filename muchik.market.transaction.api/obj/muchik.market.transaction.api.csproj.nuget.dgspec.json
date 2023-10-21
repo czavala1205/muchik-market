@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.api\\muchik.market.transaction.api.csproj": {}
+    "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.api\\muchik.market.transaction.api.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
+    "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj",
+        "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj",
         "projectName": "muchik.market.domain",
-        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\obj\\",
+        "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -66,27 +61,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
+    "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj",
+        "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj",
         "projectName": "muchik.market.infraestructure.bus",
-        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\obj\\",
+        "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -99,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
               }
             }
           }
@@ -152,27 +142,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj": {
+    "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj",
+        "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj",
         "projectName": "muchik.market.infrastructure.ioc",
-        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\obj\\",
+        "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.ioc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -185,11 +170,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
               },
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj"
               }
             }
           }
@@ -233,27 +218,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.api\\muchik.market.transaction.api.csproj": {
+    "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.api\\muchik.market.transaction.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.api\\muchik.market.transaction.api.csproj",
+        "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.api\\muchik.market.transaction.api.csproj",
         "projectName": "muchik.market.transaction.api",
-        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.api\\muchik.market.transaction.api.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.api\\obj\\",
+        "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.api\\muchik.market.transaction.api.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -266,17 +246,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj"
               },
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj"
               },
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj"
               },
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj"
               }
             }
           }
@@ -291,6 +271,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "IoTSharp.EntityFrameworkCore.MongoDB": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -300,6 +284,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.18.1, )"
+            },
+            "MongoFramework": {
+              "target": "Package",
+              "version": "[0.29.0, )"
             },
             "Steeltoe.Discovery.Consul": {
               "target": "Package",
@@ -333,27 +321,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj": {
+    "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj",
+        "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj",
         "projectName": "muchik.market.transaction.application",
-        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.application\\obj\\",
+        "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.application\\muchik.market.transaction.application.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -366,11 +349,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj"
               },
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj"
               }
             }
           }
@@ -388,6 +371,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.2, )"
             }
           },
           "imports": [
@@ -406,27 +393,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
+    "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj",
+        "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj",
         "projectName": "muchik.market.transaction.domain",
-        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\obj\\",
+        "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -450,6 +432,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -466,27 +454,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj": {
+    "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj",
+        "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj",
         "projectName": "muchik.market.transaction.infraestructure",
-        "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.infraestructure\\obj\\",
+        "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj",
+        "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.infraestructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -499,8 +482,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
-                "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj"
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj"
               }
             }
           }
@@ -518,6 +501,10 @@
             "IoTSharp.EntityFrameworkCore.MongoDB": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "MongoFramework": {
+              "target": "Package",
+              "version": "[0.29.0, )"
             }
           },
           "imports": [
@@ -536,7 +523,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

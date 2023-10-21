@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5PPS8zeN70mXjbh9jAT3wpPjdqTnzAJYB3aPCLPw9kcEIeuB1pouv48FnyNNm2WS1IBOLEilzWhuSskjMejQnw==",
+  "dgSpecHash": "E1PENjwEp9rduaeRCRIqMszWQUFWGQjf+h7Rzj9cE/DaFISLzvTk/lsFomIpb/+cNHWisxis46nXozVBDHb6kA==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj",
+  "projectFilePath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.domain\\muchik.market.domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\richa\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
-    "C:\\Users\\richa\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+    "C:\\Users\\czava\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\czava\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

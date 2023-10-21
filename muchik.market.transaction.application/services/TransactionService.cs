@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using MongoDB.Bson;
 using muchik.market.transaction.application.dto;
+using muchik.market.transaction.application.dto.Filters;
 using muchik.market.transaction.application.interfaces;
 using muchik.market.transaction.domain.entities;
 using muchik.market.transaction.domain.interfaces;
@@ -16,18 +18,20 @@ namespace muchik.market.transaction.application.services
             _transactionRepository = transactionRepository;
             _mapper = mapper;
         }
-        public ICollection<TransactionDto> GetAllTransactions()
+        public ICollection<TransactionDto> GetAllInvoiceTransactions(GetTransactionsDto getTransactionsDto)
         {
+            int idInvoice = getTransactionsDto.id_invoice;
             var transactions = _transactionRepository.List();
             var transactionsDto = _mapper.Map<ICollection<TransactionDto>>(transactions);
             return transactionsDto;
         }
-
         public bool CreateTransaction(TransactionDto createTransactionDto)
         {
+            
             var transaction = _mapper.Map<Transaction>(createTransactionDto);
-            _transactionRepository.Add(transaction);
-            return _transactionRepository.Save();
+            //transaction._id = ObjectId.GenerateNewId().ToString();
+            //_transactionRepository.Add(transaction);
+            return false;//_transactionRepository.Save();
         }
 
   

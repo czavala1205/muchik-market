@@ -4687,27 +4687,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\richa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\czava\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.api\\muchik.market.pay.api.csproj",
+      "projectUniqueName": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.pay.api\\muchik.market.pay.api.csproj",
       "projectName": "muchik.market.pay.api",
-      "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.api\\muchik.market.pay.api.csproj",
-      "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.api\\obj\\",
+      "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.pay.api\\muchik.market.pay.api.csproj",
+      "packagesPath": "C:\\Users\\czava\\.nuget\\packages\\",
+      "outputPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.pay.api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\czava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -4720,17 +4713,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
-              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj"
+            "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj": {
+              "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.bus\\muchik.market.infraestructure.bus.csproj"
             },
-            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj": {
-              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj"
+            "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj": {
+              "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.infraestructure.ioc\\muchik.market.infrastructure.ioc.csproj"
             },
-            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj": {
-              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj"
+            "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj": {
+              "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.pay.application\\muchik.market.pay.application.csproj"
             },
-            "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.infraestructure\\muchik.market.pay.infraestructure.csproj": {
-              "projectPath": "D:\\Proyectos\\MUCHIKMARKET\\muchik-market\\muchik.market.pay.infraestructure\\muchik.market.pay.infraestructure.csproj"
+            "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.pay.infraestructure\\muchik.market.pay.infraestructure.csproj": {
+              "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.pay.infraestructure\\muchik.market.pay.infraestructure.csproj"
             }
           }
         }
@@ -4787,7 +4780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

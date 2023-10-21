@@ -10,7 +10,7 @@ namespace muchik.market.pay.infrastructure.context
             : base(options)
         {
         }
-
+        
         public virtual DbSet<Operation> Operation { get; set; } = null!;
         //public virtual DbSet<OrderDetail> OrderDetail { get; set; } = null!;
 
