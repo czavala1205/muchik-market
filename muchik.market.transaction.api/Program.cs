@@ -14,6 +14,7 @@ using MediatR;
 using muchik.market.transaction.application.events;
 using muchik.market.transaction.application.eventHandlers;
 using muchik.market.domain.bus;
+using MongoFramework;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +29,7 @@ builder.Services.AddSwaggerGen();
 
 //AutoMapper
 builder.Services.AddAutoMapper(typeof(EntityToDtoProfile), typeof(DtoToEntityProfile));
-string cadena = builder.Configuration.GetValue<string>("mongoDBSettings:muchikConnection");
+
 //SQL Server
 builder.Services.AddDbContext<TransactionContext>(config =>
 {
@@ -36,6 +37,12 @@ builder.Services.AddDbContext<TransactionContext>(config =>
         builder.Configuration["mongoDBSettings:muchikConnection"],
         databaseName: builder.Configuration["mongoDBSettings:database"]);
 });
+
+builder.Services.AddTransient<IMongoDbConnection>(
+    s => MongoDbConnection.FromUrl(MongoUrl.Create(builder.Configuration.GetValue<string>("mongoDBSettings:muchikConnection")))
+);
+
+
 
 //RabbitMQ Settings
 builder.Services.Configure<RabbitMqSettings>(builder.Configuration.GetSection("rabbitMqSettings"));
@@ -49,8 +56,15 @@ builder.Services.AddTransient<ITransactionService, TransactionService>();
 ////Repositories
 builder.Services.AddTransient<ITransactionRepository, TransactionRepository>();
 
+//builder.Services.AddTransient<ITransactionRepository2, TransactionRepository>();
+
 //Context
 builder.Services.AddTransient<TransactionContext>();
+
+
+builder.Services.AddTransient<TransactionContext2>();
+
+//builder.Services.AddTransient<TransactionContext3>();
 
 ////Commands & Events
 builder.Services.AddTransient<IEventHandler<CreateTransactionEvent>, CreateTransactionEventHandler>();

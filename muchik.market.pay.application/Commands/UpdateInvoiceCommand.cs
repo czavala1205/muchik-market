@@ -8,10 +8,10 @@ namespace muchik.market.pay.application.Commands
 {
     public class UpdateInvoiceCommand : InvoiceCommand
     {
-        public UpdateInvoiceCommand(int invoiceId, int state)
+        public UpdateInvoiceCommand(int invoiceId)
         {
             InvoiceId = invoiceId;
-            State = state;
+            State = 1;
         }
     }
 }

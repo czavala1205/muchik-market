@@ -26,9 +26,9 @@ namespace muchik.market.transaction.application.eventHandlers
         {
             var transactionDto = new TransactionDto
             {
-                Id = Guid.NewGuid().ToString(),
-                IdInvoice = @event.InvoiceId,
-                Amount = @event.Amount,
+                //Id = Guid.NewGuid().ToString(),
+                id_invoice = @event.InvoiceId,
+                amount = @event.Amount,
                 CreatedAt = DateTime.Now
             };
 

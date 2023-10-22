@@ -22,7 +22,7 @@ namespace muchik.market.pay.infrastructure.configurations.entityTypes
 
             builder.Property(e => e.CreatedAt)
                 .HasColumnType("datetime")
-                .HasColumnName("created_at");
+                .HasColumnName("date");
         }
     }
 }

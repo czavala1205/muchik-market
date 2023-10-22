@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using muchik.market.transaction.application.dto;
+using muchik.market.transaction.application.dto.Filters;
 using muchik.market.transaction.domain.entities;
 
 namespace muchik.market.transaction.application.mappings
@@ -9,7 +10,8 @@ namespace muchik.market.transaction.application.mappings
         public EntityToDtoProfile()
         {
             CreateMap<Transaction, TransactionDto>();
-       
+            CreateMap<Transaction, GetTransactionsDto>();
+
         }
     }
 }

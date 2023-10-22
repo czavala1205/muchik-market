@@ -34,3 +34,15 @@ D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.domain\obj\Debug\net6.0\mu
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.domain\obj\Debug\net6.0\refint\muchik.market.domain.dll
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.domain\obj\Debug\net6.0\muchik.market.domain.pdb
 D:\Proyectos\MUCHIKMARKET\muchik-market\muchik.market.domain\obj\Debug\net6.0\ref\muchik.market.domain.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\bin\Debug\net6.0\muchik.market.domain.deps.json
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\bin\Debug\net6.0\muchik.market.domain.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\bin\Debug\net6.0\muchik.market.domain.pdb
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\muchik.market.domain.csproj.AssemblyReference.cache
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\muchik.market.domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\muchik.market.domain.AssemblyInfoInputs.cache
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\muchik.market.domain.AssemblyInfo.cs
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\muchik.market.domain.csproj.CoreCompileInputs.cache
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\muchik.market.domain.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\refint\muchik.market.domain.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\muchik.market.domain.pdb
+D:\.NET\muchik-market\muchik-market\muchik.market.domain\obj\Debug\net6.0\ref\muchik.market.domain.dll

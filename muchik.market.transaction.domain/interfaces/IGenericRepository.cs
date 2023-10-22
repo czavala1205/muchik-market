@@ -12,7 +12,6 @@ namespace muchik.market.transaction.domain.interfaces
         IEnumerable<T> List(Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = "");
 
-
         IQueryable<T> Query(Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = "");
         T GetById(string id);
