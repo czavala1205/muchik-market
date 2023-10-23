@@ -10,6 +10,7 @@ namespace muchik.market.invoice.domain.entities
     {
         public int Id { get; set; }
         public decimal Amount { get; set; }
+        //public decimal Balance { get; set; }
         public int State { get; set; }
     }
 }

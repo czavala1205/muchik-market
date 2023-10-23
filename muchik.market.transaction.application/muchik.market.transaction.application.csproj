@@ -12,5 +12,6 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\muchik.market.domain\muchik.market.domain.csproj" />
 	  <ProjectReference Include="..\muchik.market.transaction.domain\muchik.market.transaction.domain.csproj" />
+	  <ProjectReference Include="..\muchik.market.transaction.infraestructure\muchik.market.transaction.infraestructure.csproj" />
 	</ItemGroup>
 </Project>

@@ -1,14 +1,17 @@
 ﻿using muchik.market.transaction.application.dto;
+using muchik.market.transaction.application.dto.Creates;
 using muchik.market.transaction.application.dto.Filters;
+using muchik.market.transaction.domain.entities;
 
 namespace muchik.market.transaction.application.interfaces
 {
     public interface ITransactionService
     {
-        ICollection<TransactionDto> GetAllInvoiceTransactions(GetTransactionsDto getTransactionDto);
-        bool CreateTransaction(TransactionDto transactionDto);
+        List<Transaction> GetAllTransactionsFromInvoice(int idInvoice);
 
-        //bool UpdateInvoiceState(int invoiceId);
+        Transaction CreateTransaction(CreateTransactionDto entity);
+
+
 
     }
 }

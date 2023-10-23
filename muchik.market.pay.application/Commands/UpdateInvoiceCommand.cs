@@ -8,9 +8,10 @@ namespace muchik.market.pay.application.Commands
 {
     public class UpdateInvoiceCommand : InvoiceCommand
     {
-        public UpdateInvoiceCommand(int invoiceId)
+        public UpdateInvoiceCommand(int invoiceId, decimal _totalPagado)
         {
-            InvoiceId = invoiceId;
+            id_invoice = invoiceId;
+            totalPagado = _totalPagado;
             State = 1;
         }
     }

@@ -23,28 +23,30 @@ namespace muchik.market.invoice.application.services
             return invoicesDto;
         }
 
-        public bool CreateInvoice(InvoiceDto createInvoiceDto)
+        public Invoice CreateInvoice(InvoiceDto createInvoiceDto)
         {
             var invoice = _mapper.Map<Invoice>(createInvoiceDto);
             _invoiceRepository.Add(invoice);
-            return _invoiceRepository.Save();
+            _invoiceRepository.Save();
+            return invoice;
         }
 
         public bool UpdateInvoiceState(int invoiceId)
         {
             var invoice = _invoiceRepository.GetById(invoiceId);
 
-
             if (invoice == null)
                 throw new Exception("No se pudo encontrar la factura.");
-
-
                         
             invoice.State = 1;
             _invoiceRepository.Update(invoice);
             return _invoiceRepository.Save();
         }
 
-     
+        public Invoice GetById(int idInvoice)
+        {
+            var invoice = _invoiceRepository.GetById(idInvoice);
+            return invoice;
+        }
     }
 }

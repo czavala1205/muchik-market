@@ -9,13 +9,13 @@ namespace muchik.market.transaction.application.events
 {
     public class CreateTransactionEvent : Event
     {
-        public int InvoiceId { get; set; }
-        public Decimal Amount { get; set; }
+        public int id_invoice { get; set; }
+        public Decimal amount { get; set; }
 
-        public CreateTransactionEvent(int invoiceId, decimal amount)
+        public CreateTransactionEvent(int _invoiceId, decimal _amount)
         {
-            InvoiceId = invoiceId;
-            Amount = amount;
+            id_invoice = _invoiceId;
+            amount = _amount;
         }
     }
 }

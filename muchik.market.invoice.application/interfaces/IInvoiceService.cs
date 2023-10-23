@@ -1,4 +1,5 @@
 ﻿using muchik.market.invoice.application.dto;
+using muchik.market.invoice.domain.entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,8 @@ namespace muchik.market.invoice.application.interfaces
     public interface IInvoiceService
     {
         ICollection<InvoiceDto> GetAllInvoices();
-        bool CreateInvoice(InvoiceDto invoiceDto);
+        Invoice GetById(int idInvoice);
+        Invoice CreateInvoice(InvoiceDto invoiceDto);
         bool UpdateInvoiceState(int invoiceId);
 
     }

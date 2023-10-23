@@ -9,7 +9,9 @@ namespace muchik.market.pay.application.Commands
 {
     public class InvoiceCommand : Command
     {
-        public int InvoiceId { get; set; }
+        public int id_invoice { get; set; }
+
+        public decimal totalPagado { get; set; }
         public int State { get; set; }
     }
 }

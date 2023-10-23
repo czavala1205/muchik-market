@@ -11,11 +11,13 @@ namespace muchik.market.invoice.application.events
     {
         public int InvoiceId { get; set; }
         public int State { get; set; }
+        public decimal TotalPagado { get; set; }
 
-        public UpdateInvoiceEvent(int invoiceId, int state)
+        public UpdateInvoiceEvent(int invoiceId, int state, decimal totalPagado)
         {
             InvoiceId = invoiceId;
             State = state;
+            TotalPagado = totalPagado;
         }
     }
 }
