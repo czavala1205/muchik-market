@@ -354,6 +354,9 @@
               },
               "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj": {
                 "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.domain\\muchik.market.transaction.domain.csproj"
+              },
+              "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj": {
+                "projectPath": "D:\\.NET\\muchik-market\\muchik-market\\muchik.market.transaction.infraestructure\\muchik.market.transaction.infraestructure.csproj"
               }
             }
           }
@@ -498,6 +501,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "IoTSharp.EntityFrameworkCore.MongoDB": {
               "target": "Package",
               "version": "[1.0.0, )"

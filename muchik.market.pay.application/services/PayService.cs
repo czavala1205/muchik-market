@@ -20,10 +20,10 @@ namespace muchik.market.pay.application.services
             _mapper = mapper;
             _eventBus = eventBus;
         }
-        public ICollection<OperationDto> GetAllOperations()
+        public List<OperationDto> GetAllInvoiceOperations(int idInvoice)
         {
-            var operations = _payRepository.List();
-            var operationsDto = _mapper.Map<ICollection<OperationDto>>(operations);
+            var operations = _payRepository.List(i => i.Id_invoice == idInvoice).ToList();
+            var operationsDto = _mapper.Map<List<OperationDto>>(operations);
             return operationsDto;
         }
 
@@ -31,12 +31,22 @@ namespace muchik.market.pay.application.services
         {
             var operation = _mapper.Map<Operation>(createOperationDto);
             _payRepository.Add(operation);
-            
+
+            var operations = GetAllInvoiceOperations(createOperationDto.id_invoice);
+            decimal totalPagado = 0;
+
+            foreach (var item in operations)
+            {
+                totalPagado += item.amount;
+            }
+
+
             var successRegister = _payRepository.Save();
+
             if (successRegister)
             {
-                await _eventBus.SendCommand(new UpdateInvoiceCommand(createOperationDto.IdInvoice));
-                await _eventBus.SendCommand(new CreateTransactionCommand(createOperationDto.IdInvoice, createOperationDto.Amount));
+                await _eventBus.SendCommand(new UpdateInvoiceCommand(createOperationDto.id_invoice,totalPagado));
+                await _eventBus.SendCommand(new CreateTransactionCommand(createOperationDto.id_invoice, createOperationDto.amount));
             }
 
             return successRegister;

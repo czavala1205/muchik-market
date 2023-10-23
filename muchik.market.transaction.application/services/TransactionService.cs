@@ -1,7 +1,6 @@
-﻿using AutoMapper;
-using MongoDB.Bson;
+﻿using MongoDB.Driver;
 using muchik.market.transaction.application.dto;
-using muchik.market.transaction.application.dto.Filters;
+using muchik.market.transaction.application.dto.Creates;
 using muchik.market.transaction.application.interfaces;
 using muchik.market.transaction.domain.entities;
 using muchik.market.transaction.domain.interfaces;
@@ -10,30 +9,42 @@ namespace muchik.market.transaction.application.services
 {
     public class TransactionService : ITransactionService
     {
-        private readonly ITransactionRepository _transactionRepository;
-        private readonly IMapper _mapper;
 
-        public TransactionService(ITransactionRepository transactionRepository, IMapper mapper)
+
+        private readonly IMongoCollection<Transaction> _transaction;
+
+        public TransactionService(ITransactionSettings settings, IMongoClient client)
         {
-            _transactionRepository = transactionRepository;
-            _mapper = mapper;
-        }
-        public ICollection<TransactionDto> GetAllInvoiceTransactions(GetTransactionsDto getTransactionsDto)
-        {
-            int idInvoice = getTransactionsDto.id_invoice;
-            var transactions = _transactionRepository.List();
-            var transactionsDto = _mapper.Map<ICollection<TransactionDto>>(transactions);
-            return transactionsDto;
-        }
-        public bool CreateTransaction(TransactionDto createTransactionDto)
-        {
-            
-            var transaction = _mapper.Map<Transaction>(createTransactionDto);
-            //transaction._id = ObjectId.GenerateNewId().ToString();
-            //_transactionRepository.Add(transaction);
-            return false;//_transactionRepository.Save();
+            var database = client.GetDatabase(settings.DatabaseName);
+            _transaction = database.GetCollection<Transaction>(settings.TransactionCollectionName);
         }
 
-  
+        public Transaction CreateTransaction(CreateTransactionDto transactionDto)
+        {
+            var transaction = new Transaction
+            {
+                id_transaction = Guid.NewGuid().ToString("N"),
+                id_invoice = transactionDto.id_invoice,
+                amount = transactionDto.amount,
+                CreatedAt = DateTime.Now
+            };
+         
+            _transaction.InsertOne(transaction);
+
+            return transaction;
+
+        }
+
+        public List<Transaction> GetAllTransactionsFromInvoice(int idInvoice)
+        {
+            return _transaction.Find(t => t.id_invoice == idInvoice).ToList();
+        }
+
     }
+
+
+
+
+
 }
+

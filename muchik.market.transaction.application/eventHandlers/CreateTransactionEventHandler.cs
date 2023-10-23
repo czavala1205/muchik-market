@@ -24,12 +24,10 @@ namespace muchik.market.transaction.application.eventHandlers
 
         public Task Handle(CreateTransactionEvent @event)
         {
-            var transactionDto = new TransactionDto
+            var transactionDto = new CreateTransactionDto
             {
-                //Id = Guid.NewGuid().ToString(),
-                id_invoice = @event.InvoiceId,
-                amount = @event.Amount,
-                CreatedAt = DateTime.Now
+                id_invoice = @event.id_invoice,
+                amount = @event.amount
             };
 
             var successPayment = _transactionService.CreateTransaction(transactionDto);

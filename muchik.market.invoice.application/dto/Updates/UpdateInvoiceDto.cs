@@ -9,6 +9,8 @@ namespace muchik.market.invoice.application.dto.Updates
     public class UpdateInvoiceDto
     {
         public int InvoiceId { get; set; }
-        public int State { get; set; } 
+        public int State { get; set; }
+        public decimal TotalPagado { get; set; }
+
     }
 }

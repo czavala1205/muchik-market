@@ -21,7 +21,7 @@ namespace muchik.market.pay.application.CommandHandlers
 
         public Task<bool> Handle(UpdateInvoiceCommand request, CancellationToken cancellation)
         {
-            _eventBus.Publish(new UpdateInvoiceEvent(request.InvoiceId, request.State));
+            _eventBus.Publish(new UpdateInvoiceEvent(request.id_invoice, request.State, request.totalPagado));
             return Task.FromResult(true);
         }
     }

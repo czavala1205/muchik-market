@@ -54,3 +54,5 @@ D:\.NET\muchik-market\muchik-market\muchik.market.transaction.infraestructure\ob
 D:\.NET\muchik-market\muchik-market\muchik.market.transaction.infraestructure\obj\Debug\net6.0\refint\muchik.market.transaction.infraestructure.dll
 D:\.NET\muchik-market\muchik-market\muchik.market.transaction.infraestructure\obj\Debug\net6.0\muchik.market.transaction.infraestructure.pdb
 D:\.NET\muchik-market\muchik-market\muchik.market.transaction.infraestructure\obj\Debug\net6.0\ref\muchik.market.transaction.infraestructure.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.infraestructure\bin\Debug\net6.0\muchik.market.transaction.infraestructure.runtimeconfig.json
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.infraestructure\obj\Debug\net6.0\muchik.market.transaction.infraestructure.genruntimeconfig.cache

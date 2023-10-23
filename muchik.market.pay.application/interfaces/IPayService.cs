@@ -4,7 +4,7 @@ namespace muchik.market.pay.application.interfaces
 {
     public interface IPayService
     {
-        ICollection<OperationDto> GetAllOperations();
+        List<OperationDto> GetAllInvoiceOperations(int idInvoice);
         Task<bool> CreateOperation(OperationDto payDto);
 
         //bool UpdateInvoiceState(int invoiceId);

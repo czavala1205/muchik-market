@@ -14,7 +14,7 @@ namespace muchik.market.pay.infrastructure.configurations.entityTypes
 
             builder.HasKey(e => e.Id);
 
-            builder.Property(e => e.IdInvoice).HasColumnName("id_invoice");
+            builder.Property(e => e.Id_invoice).HasColumnName("id_invoice");
 
             builder.Property(e => e.Amount)
                 .HasColumnType("decimal(18, 2)")

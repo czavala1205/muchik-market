@@ -26,12 +26,21 @@ namespace muchik.market.invoice.application.eventHandlers
             var invoiceDto = new UpdateInvoiceDto
             {
                 InvoiceId = @event.InvoiceId,
-                State = @event.State
+                State = @event.State,
+                TotalPagado = @event.TotalPagado
+                
             };
 
-            var successPayment = _invoiceService.UpdateInvoiceState(invoiceDto.InvoiceId);
+            var invoice = _invoiceService.GetById(invoiceDto.InvoiceId);
+
+            if (invoiceDto.TotalPagado == invoice.Amount)
+            {
+                var successPayment = _invoiceService.UpdateInvoiceState(invoiceDto.InvoiceId);
+               
+            }
 
             return Task.CompletedTask;
+
         }
     }
 }

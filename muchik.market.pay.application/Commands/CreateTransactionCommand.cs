@@ -8,10 +8,10 @@ namespace muchik.market.pay.application.Commands
 {
     public class CreateTransactionCommand : TransactionCommand
     {
-        public CreateTransactionCommand(int invoiceId, Decimal amount)
+        public CreateTransactionCommand(int _invoiceId, Decimal _amount)
         {
-            InvoiceId = invoiceId;
-            Amount = amount;
+            id_invoice = _invoiceId;
+            amount = _amount;
         }
     }
 }

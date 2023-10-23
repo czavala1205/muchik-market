@@ -15,12 +15,6 @@ namespace muchik.market.pay.api.Controllers
             _payService = payService;
         }
 
-        [HttpGet("getAllOperations")]
-        public IActionResult GetAllOperations()
-        {
-            return Ok(_payService.GetAllOperations());
-        }
-
         [HttpPost("createOperation")]
         public IActionResult CreateOperation([FromBody] OperationDto operationDto)
         {

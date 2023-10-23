@@ -305,3 +305,12 @@ D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6
 D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\EntityFramework.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\System.CodeDom.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\.NET\muchik-market\muchik-market\muchik.market.transaction.api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
